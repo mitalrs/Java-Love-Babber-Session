@@ -1,13 +1,7 @@
-package polymorphism;
 
-public class compiletime {
-    
-}
+// compile: overloading
 
-
-
-
-public class Main // person
+public class compiletime // person
 {
     void job()
     {
@@ -18,7 +12,7 @@ public class Main // person
         System.out.println("job task second");
     }
 	public static void main(String[] args) {
-	Main m=new Main();
+        compiletime m=new compiletime();
 	m.job();
 	m.job();
 	}
